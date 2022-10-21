@@ -8,7 +8,7 @@ Youtube Simple API series example for Bungie's Destiny
     * Steam
     * Stadia
     * Twitch
-1. Create/Register your app: https://www.bungie.net/en/Application
+1. Create/Register your app: `https://www.bungie.net/en/Application`
     * OAuth Client Type: Confidential
 1. Copy App Credentials and Endpoints from app details page
     * API key
