@@ -15,7 +15,7 @@ token_url = "https://www.bungie.net/platform/app/oauth/token/"
 session = OAuth2Session(client_id=client_id, redirect_uri=redirect_url)
 
 auth_link = session.authorization_url(base_auth_url)
-print(f"Authorization link: {auth_link}")
+print(f"Authorization link: {auth_link[0]}")
 
 redirect_response = input(f"Paste url link here: ")
 
